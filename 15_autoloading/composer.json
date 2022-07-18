@@ -1,0 +1,17 @@
+{
+    "name": "lenovo/15_autoloading",
+    "authors": [
+        {
+            "name": "dtoolz",
+            "email": "donaldaudriel@gmail.com"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^7.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "app\\" : "./app"
+        }
+    }
+}
